@@ -22,4 +22,4 @@ while winner == 'None':
     Player = other_player(Player)
     winner = get_winner(board)
 print_board(board)
-print(winner, "  is winner")
+print(winner + " is winner")
