@@ -21,4 +21,5 @@ while winner == 'None':
     board= player_input(board, Player,position)
     Player = other_player(Player)
     winner = get_winner(board)
-print(winner)
+print_board(board)
+print(winner, "  is winner")
